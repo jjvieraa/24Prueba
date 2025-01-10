@@ -1,0 +1,20 @@
+[History]
+1=#P0#=mb	#P1#=mAP_Click	#P2#=CP/MDIingreso/mAP_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20130916150012	#P7#=0	#P8#=-1	.
+2=#P0#=mb	#P1#=MDIForm_Load	#P2#=CP/MDIingreso/MDIForm_Load	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20130916145534	#P7#=0	#P8#=1	.
+3=#P0#=mb	#P1#=msCamposAVariables	#P2#=CP/clsSocios/msCamposAVariables	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20111009224238	#P7#=0	#P8#=15	.
+4=#P0#=mb	#P1#=msVariablesACampos	#P2#=CP/clsSocios/msVariablesACampos	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20111009224202	#P7#=0	#P8#=30	.
+5=#P0#=mb	#P1#=msInicia	#P2#=CP/clsSocios/msInicia	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20111009224126	#P7#=0	#P8#=-5	.
+6=#P0#=mb	#P1#=cmdArchivCentro_Click	#P2#=CP/fjCierraMes/cmdArchivCentro_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20110912184008	#P7#=0	#P8#=36	.
+7=#P0#=mb	#P1#=cmdListaCentro_Click	#P2#=CP/fjCierraMes/cmdListaCentro_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20110912183839	#P7#=0	#P8#=1	.
+8=#P0#=mb	#P1#=cmdCentroPol_Click	#P2#=CP/fjCierraMes/cmdCentroPol_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20110912183649	#P7#=0	#P8#=132	.
+9=#P0#=mb	#P1#=LLenaUnRegistroCentro	#P2#=CP/fjCierraMes/LLenaUnRegistroCentro	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20110912182025	#P7#=0	#P8#=-4	.
+10=#P0#=mb	#P1#=cmdArchivoJefat_Click	#P2#=CP/fjCierraMes/cmdArchivoJefat_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20110912181916	#P7#=0	#P8#=58	.
+11=#P0#=mb	#P1#=VerificaTablaCP	#P2#=CP/fjCierraMes/VerificaTablaCP	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20110912165936	#P7#=0	#P8#=4	.
+12=#P0#=mb	#P1#=Form_Load	#P2#=CP/fjIngresos2/Form_Load	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20110816123136	#P7#=0	#P8#=-2	.
+13=#P0#=mb	#P1#=cmdJefLista_Click	#P2#=CP/fjCierraMes/cmdJefLista_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20110814205838	#P7#=0	#P8#=1	.
+14=#P0#=mb	#P1#=cmdJefat_Click	#P2#=CP/fjCierraMes/cmdJefat_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20110814205804	#P7#=0	#P8#=1	.
+15=#P0#=mb	#P1#=msRearmaPrePago	#P2#=CP/fjCierraMes/msRearmaPrePago	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20110811005332	#P7#=0	#P8#=78	.
+16=#P0#=mb	#P1#=CierraMes	#P2#=CP/fjCierraMes/CierraMes	#P3#=	#P4#=	#P5#=MembMethodPrivate	#P6#=20110811005319	#P7#=0	#P8#=282	.
+17=#P0#=mb	#P1#=cmdCierraMes_Click	#P2#=CP/fjCierraMes/cmdCierraMes_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20110811000845	#P7#=0	#P8#=-6	.
+18=#P0#=mb	#P1#=cmdResumen_Click	#P2#=CP/fjCierraMes/cmdResumen_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20110811000028	#P7#=0	#P8#=252	.
+19=#P0#=mb	#P1#=cmdJefListaAlf_Click	#P2#=CP/fjCierraMes/cmdJefListaAlf_Click	#P3#=	#P4#=	#P5#=MembEventProcPrivate	#P6#=20110811000008	#P7#=0	#P8#=86	.

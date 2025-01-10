@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "../../../../WEBS/Pag Juan"
+		},
+		{
+			"path": "../../../../WEBS/Pag Juan NUEVA"
+		},
+		{
+			"path": "../../../../WEBS/Pag estudios historicos"
+		},
+		{
+			"name": "Repositorios prueba",
+			"path": "../../../CDH/Repositorios prueba"
+		},
+		{
+			"name": "24Prueba-1",
+			"path": ".."
+		},
+		{
+			"path": "../../../../../../../MSVC/Proyectos"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Pag estudios historicos",
+		"java.debug.settings.onBuildFailureProceed": true
+	}
+}
