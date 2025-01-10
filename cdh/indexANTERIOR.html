@@ -1,0 +1,2181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>V Jornadas Binacionales de Educación</title><style type="text/css">
+<!--
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #CCCCCC;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+/* ~~ Selectores de elemento/etiqueta ~~ */
+ul, ol, dl { /* Debido a las diferencias existentes entre los navegadores, es recomendable no añadir relleno ni márgenes en las listas. Para lograr coherencia, puede especificar las cantidades deseadas aquí o en los elementos de lista (LI, DT, DD) que contienen. Recuerde que lo que haga aquí se aplicará en cascada en la lista .nav, a no ser que escriba un selector más específico. */
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	 /* la eliminación del margen superior resuelve un problema que origina que los márgenes escapen de la etiqueta div contenedora. El margen inferior restante lo mantendrá separado de los elementos de que le sigan. */
+	padding-right: 15px;
+	padding-left: 15px; /* la adición de relleno a los lados del elemento dentro de las divs, en lugar de en las divs propiamente dichas, elimina todas las matemáticas de modelo de cuadro. Una div anidada con relleno lateral también puede usarse como método alternativo. */
+}
+.container .content p {
+}
+a img { /* este selector elimina el borde azul predeterminado que se muestra en algunos navegadores alrededor de una imagen cuando está rodeada por un vínculo */
+	border: none;
+}
+/* ~~ La aplicación de estilo a los vínculos del sitio debe permanecer en este orden (incluido el grupo de selectores que crea el efecto hover -paso por encima-). ~~ */
+a:link {
+	color: #42413C;
+	text-decoration: underline; /* a no ser que aplique estilos a los vínculos para que tengan un aspecto muy exclusivo, es recomendable proporcionar subrayados para facilitar una identificación visual rápida */
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* este grupo de selectores proporcionará a un usuario que navegue mediante el teclado la misma experiencia de hover (paso por encima) que experimenta un usuario que emplea un ratón. */
+	text-decoration: none;
+}
+
+/* ~~ este contenedor de anchura fija rodea a todos los demás elementos ~~ */
+.container {
+	width: 960px;
+	background-color: #FFF;
+	margin: 0 auto; /* el valor automático de los lados, unido a la anchura, centra el diseño */
+}
+.margder{
+	margin: 30px;
+}
+
+/* ~~ Esta es la información de diseño. ~~ 
+
+1) El relleno sólo se sitúa en la parte superior y/o inferior de la div. Los elementos situados dentro de esta div tienen relleno a los lados. Esto le ahorra las "matemáticas de modelo de cuadro". Recuerde que si añade relleno o borde lateral a la div propiamente dicha, éste se añadirá a la anchura que defina para crear la anchura *total*. También puede optar por eliminar el relleno del elemento en la div y colocar una segunda div dentro de ésta sin anchura y el relleno necesario para el diseño deseado.
+
+*/
+.content {
+
+	padding: 10px 0;
+}
+
+.content2 {
+	padding: 10px 0;
+	margin-left: 20px;
+}
+.content3 {
+	padding: 10px 0;
+	margin-left: 20px;
+	color: #FFFFFF;
+}
+.content4 {
+	padding: 10px 0;
+	margin-left: 20px;
+	color: #003333;
+	font-weight: bold;
+}
+.content5 {
+	text-align:justify;	
+}
+
+/* ~~ clases float/clear varias ~~ */
+.fltrt {  /* esta clase puede utilizarse para que un elemento flote en la parte derecha de la página. El elemento flotante debe preceder al elemento junto al que debe aparecer en la página. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* esta clase puede utilizarse para que un elemento flote en la parte izquierda de la página. El elemento flotante debe preceder al elemento junto al que debe aparecer en la página. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* esta clase puede situarse en una <br /> o div vacía como elemento final tras la última div flotante (dentro de #container) si se elimina overflow:hidden en .container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+.arriba {
+	background-color: rgba(0,7,51,1.00);
+	color: rgba(255,255,255,1);
+	font-size: 36px;
+}
+.arriba1 {
+	background-color: rgba(0,7,51,1.00);
+	color: rgba(255,255,255,1);
+	font-size: 30px;
+}
+
+
+.arriba2 {
+	background-color: rgba(0,7,51,1.00);
+	color: rgba(255,255,255,1);
+	font-size: 20px;
+}
+.arriba3 {
+	background-color: rgba(0,7,51,1.00);
+	color: rgba(255,255,255,1);
+	font-size: 30px;
+	text-align: center;
+}
+.derecha{
+	text-align: right;
+}
+.titulo {
+	color: #003333;
+	font-size: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.regla01 {
+	margin-left: 12px;
+	margin-right: 12px;
+	color: #729E68;
+	height: 4px;
+	background-color: rgba(0,7,51,1.00);
+	}
+.pie {
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color: rgba(0,7,51,1.00);
+	color: rgba(255,255,255,1);
+	text-align: center;
+	font-size: 10px;
+	}
+.cblanco {
+	font-color: rgba(255,255,255,1)
+}
+.content1 {
+	padding: 10px 0;
+}
+
+-->
+</style></head>
+<body>
+
+<div class="container">	
+  <div class="arriba">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tbody><tr>
+        <td width="2%">&nbsp;</td>
+        <td class="arriba" width="68%"><p><span class="arriba">VI Jornadas<br />
+          BINACIONALES 
+          de 
+          EDUCACIÓN</span><span class="arriba1"><br />
+          </span></p>
+          <p class="arriba2">FORMAR EN LA DIVERSIDAD <br />
+            REFLEXIONES Y ACCIONES<br />
+          </p></td>
+                <td width="1%">&nbsp;</td>
+
+        <td class="derecha" width="29%"><img src="chic%20%28119%29.png" alt="Logo del sitio" height="314" width="202" /></td>
+      </tr>
+    </tbody></table>
+  </div>
+  <div class="content">
+    <h1><br />
+  </h1>
+    <p>Las
+Jornadas Binacionales de Educación tienen como objetivo principal
+ofrecer un espacio permanente de reflexión, discusión e intercambio
+productivo sobre la educación y los desafíos que la sociedad
+contemporánea presenta en el contexto binacional Uruguay-Brasil.</p>
+    <p>Asimismo,
+se procura&nbsp; generar oportunidades para dar a conocer diversas
+acciones y experiencias educativas de la región de frontera en el marco
+de la internacionalización de la educación formal y no formal.</p>
+    <p>De
+esta manera, las jornadas ofrecen espacios tanto para la discusión más
+conceptual o teórica, como para el intercambio y análisis de
+experiencias prácticas concretas, buscando el diálogo productivo entre
+ambos.</p>
+    <p>&nbsp;</p>
+    <hr class="regla01" />
+    <p>&nbsp;</p>
+<p></p>
+    <p class="titulo">Fecha </p>
+    <p>4, 5 y 6  de Setiembre de 2017</p>
+    <p>Se expedirán certificados</p>
+    <p>&nbsp;</p>
+    <p class="titulo"><br />
+    </p>
+    <hr class="regla01" />
+    <p></p>
+    <p class="titulo"></p>
+    <p class="titulo">Lugar RIVERA (Uruguay)</p>
+    <p class="titulo">&nbsp;</p>
+    <table border="0" cellpadding="0" cellspacing="0" width="200">
+      <tbody>
+        <tr>
+          <td>&nbsp;  </td>
+          <td><span class="titulo"><img src="mgns/ifdr/01.png" alt="Rivera Uruguay" height="247" width="253" /></span></td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td><span class="titulo"><img src="mgns/ifdr/02.png" alt="Rivera Uruguay" height="210" width="323" /></span></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td><p>Rivera es un departamento del Uruguay de extraordinaria riqueza natural, patrimonial y cultural.</p>
+            <p>Situada
+en las nacientes del arroyo Cuñapirú, la ciudad creció alrededor del
+Cerro del Marco, quedando separada de Santa Ana do Livramento (Brasil)
+por apenas una calle.</p></td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td><span class="titulo"><img src="mgns/ifdr/03.png" alt="Rivera Uruguay" height="204" width="478" /></span></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td><p>&nbsp;</p></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td><img src="mgns/ifdr/04.png" alt="Rivera Uruguay" height="117" width="195" /></td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td><p><a href="mgns/ifdr/Rivera%20Interior.pdf" target="new">Rivera</a></p>
+            <p><a href="mgns/ifdr/Bodegas%20Interior.pdf" target="new">Con sabor a vino</a></p>
+            <p><a href="mgns/ifdr/Corrales%20Interior.pdf" target="new">Minas de Corrales capital del oro</a></p>
+            <p><a href="mgns/ifdr/Eventos%20Interior.pdf" target="new">Eventos </a></p>
+            <p><a href="mgns/ifdr/Lunarejo%20Interior.pdf" target="new">Valle del Lunarejo</a></p>
+            <p><a href="http://www.rivera.gub.uy/" target="new">Intendencia Departamental de Rivera</a></p>
+            <a href="mgns/ifdr/III+Festival+de+Enogastronom%C3%ADa.pdf" target="new">
+            <p>Aromas y sabores desde los cerros</p>
+            <p>Festival de Enogastronomía</p>
+            </a>
+          <p>&nbsp;</p></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td><img src="mgns/ifdr/05.png" alt="Rivera Uruguay" height="187" width="328" /></td>
+          <td>&nbsp;</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="titulo">&nbsp;</p>
+    <p class="titulo"></p>
+    <p>&nbsp;</p>
+    <p class="titulo"></p>
+    <p class="titulo"><br />
+    </p>
+    <hr class="regla01" />
+    <p>&nbsp;</p>
+    <p><a name="n00" id="n00"></a></p>
+    <table class="arriba3" align="center" border="0" cellpadding="10" cellspacing="0" width="873">
+      <tbody>
+        <tr>
+          <td width="853">VI JORNADAS BINACIONALES de EDUCACIÓN</td>
+        </tr>
+      </tbody>
+    </table>
+    <p><span class="titulo"><br />
+    ÍNDICE</span></p>
+    <p>&nbsp;</p>
+    <p><a href="#n37">Programa</a></p>
+    <p><a href="#n21"></a><a href="#n22">Comisión organizadora</a></p>
+    <p><a href="#n99">Conferencistas centrales</a></p>
+    <p><a href="#n99b">Otros invitados</a></p>
+    <p><a href="#n21">Ejes temáticos</a></p>
+    <p><a href="#n27"></a><a href="#mt0">Mesas temáticas</a></p>
+    <p><a href="#n38">Declaraciones de interés </a>    </p>
+    <p><a href="#n23">Información</a></p>
+    <p><a href="#n233">Publicación de conferencias y ponencias</a></p>
+    <p><a href="#n27">Afiche</a></p>
+    <p><a href="#n24">Webs anteriores</a></p>
+    <p><a href="#n25">Formulario de inscripción</a></p>
+    <p><a href="#n28">Formulario de ponencias</a></p>
+    <p><a href="#n107">Logos</a></p>
+    <a href="#n107">    </a>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p></p>
+    <p class="titulo"><br />
+    </p>
+    <hr class="regla01" />
+    <p></p>
+    <p>&nbsp;</p>
+    <p class="titulo"><span class="arriba1"><a name="n21"></a></span>Ejes temáticos    </p>
+    <table border="0" width="718">
+      <tbody>
+        <tr>
+          <td width="33">&nbsp;</td>
+          <td colspan="2"><strong>Desigualdades y políticas educativas</strong></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td width="107">&nbsp;</td>
+          <td width="564"><p class="content5">Esta
+mesa temática reviste especial importancia en momentos en que se están
+implementando en la región un conjunto de políticas educativas como
+respuesta a problemas puntuales que presenta el sistema educativo,
+vinculados a las desigualdades. Estos problemas no han estado ausentes
+en la investigación nacional y regional cuyos resultados podrían
+arrojar luz a la comprensión y solución de los mismos.&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td colspan="2"><strong>Educación y TIC</strong></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td class="content5"><p>Es
+cada vez mayor&nbsp; la necesidad de abordar la complejidad, los
+alcances, los límites y los desafíos que las TIC le presentan a la
+educación. Resultados promisorios de distintas experiencias que se
+vienen llevando a cabo e inquietudes profundas generadas por la
+reflexión filosófica enmarcan este debate.</p></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td colspan="2"><strong>Educación comparada e internacional y estudios de frontera</strong></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td height="31">&nbsp;</td>
+          <td class="content5"><p>Instalado
+en la&nbsp; agenda de las políticas educativas, el tema de la
+internacionalización de la Educación Superior es un problema ineludible
+para tratarlo en esta frontera abierta, &nbsp;escenario ideal para
+pensar y discutir sobre los fenómenos asociados a la transnacionalidad,
+internacionalidad, supranacionalidad y estudios comparados de las&nbsp;
+políticas educativas -en el Cono sur de América- las influencias de las
+normativas nacionales, las determinaciones culturales locales,
+algunos avances y desafíos actuales de la Región.</p></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td colspan="2"><strong>Formación docente</strong></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td><p class="content5">La
+formación docente reviste especial interés para el país y para la
+región. Los procesos económicos, sociales y políticos vividos en
+latinoamérica demandan renovar la mirada a la educación como factor de
+democratización social. La formación de maestros y profesores no puede
+quedar ausente en este debate. En Brasil la formación docente tiene una
+larga trayectoria universitaria mientras que en Uruguay apenas comienza
+a orientarse hacia el pretendido, pero hasta ahora elusivo, carácter
+universitario, al tiempo que inicia un enfático proceso de reforma
+curricular.</p>
+          <p class="content5">En la región noreste de
+Uruguay y Sur del Brasil, en el nivel terciario, la carrera docente es
+una de las más requeridas y concita especial atención. Estas V Jornadas
+Binacionales ofrecen una mesa temática dedicada al intercambio de
+experiencias en el ámbito de la formación docente, pero también a la
+discusión y reflexión sobre rumbos posibles y desafíos a ser
+enfrentados por la educación.</p></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td colspan="2"><strong>Sociedad, educación y lenguaje en zona de frontera</strong></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td class="content5"><p>La
+pertinencia de la mesa “Sociedad, educación y lenguaje en zona de
+frontera” es indiscutible en una jornada Binacional como ésta. La
+UdelaR ya instaló en esta región noreste de Uruguay un Polo de
+Desarrollo Universitario dedicado a estudios de lenguaje en la
+frontera, que unido a otras iniciativas y experiencias que se están
+llevando a cabo, y toda la acumulación de la investigación en ese
+campo, constituyen un marco inmejorable para el abordaje de estos
+asuntos.</p></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td colspan="2"><strong>Educación Física</strong></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td class="content5"><p>La
+Educación Física como campo epistémico se encuentra en constante
+tensión entre las políticas públicas, el campo profesional y el
+desarrollo académico. Sin duda, la influencia de las ciencias del
+deporte, las ciencias de la salud, la teoría del tiempo libre y los
+estudios culturales, han impactado directamente sobre la configuración
+de las prácticas y la producción de conocimiento en las diferentes
+regiones del mundo. En Uruguay, a 10 años de inserción del ISEF en la
+Universidad, se ha transformado en la institución con mayor presencia
+en las regionales y con un perfil de egreso hacia las prácticas
+educativas. En esta mesa temática se expondrán reflexiones hacia las
+experiencias docentes, acciones en el territorio y/o investigaciones
+volcadas al estudio de las prácticas corporales y la salud.</p></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td colspan="2"><strong>Educación Social</strong></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td class="content5"><p>Este
+eje temático reviste especial importancia ya que los agentes educativos
+tradicionales -familia y sistema educativo- que promovieron la
+integración social, cultural y laboral de sus integrantes, experimentan
+hoy cambios profundos en sus estructuras. El debate actual sobre la
+realidad social y particularmente sobre la educación como componente
+sustancial de los procesos del tejido social, da cuenta de la necesidad
+de formar a un Educador Social que, de forma coordinada con otros
+actores y situado en diversos contextos, piense, analice, diseñe e
+implemente estrategias de acción educativa, adecuadas para la promoción
+socio-cultural y la construcción de ciudadanía, atendiendo
+preferentemente aquellas situaciones socialmente definidas como
+problema. </p></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td colspan="2"><strong>Educación Rural</strong></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td class="content5"><p>La
+revalorización de la tarea docente en el medio rural viene acompañada
+de la promoción de la capacidad de investigación de los propios
+educadores rurales, yendo más allá del intercambio y reflexión de
+prácticas que se realizan dentro y fuera de la escuela.<br /> Esta mesa
+recoge tanto los aportes de investigadores uruguayos y brasileños
+(académicos y educadores) como de educadores escolares y
+extra-escolares. Presenta determinados avances y desafíos de las
+prácticas de enseñanzas y aprendizajes y problematiza el papel de
+sujetos sociales, político-pedagógicos en el medio rural.</p></td>
+        </tr>
+      </tbody>
+    </table>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p class="titulo"><br />
+    </p>
+    <hr class="regla01" />
+<p class="titulo"><br />
+  <span class="arriba1"><a name="n22" id="n22"></a></span>Comisión Organizadora :</p>
+    <p><strong>Comité Científico</strong>:
+Fernando Acevedo, Joni Ocaño, Karina Nossar, Patricia Viera, Virginia
+Solana, Luciano Jahnecka, Mariana Porta, Oscar Castro, Hernán Espiga </p><p><strong>Comité Logístico</strong>: Gabriela Picapedra, Jesús  Pereira, Ruth Teresita Viera, David Villamil    
+    </p><p><strong>Comité Operativo</strong>:   Gabriela Olivera Santos, Graciela Guliermone, Rita Mariela Núñez<br />
+    </p><p class="content5"><strong>Comité Financiero</strong>:  Ana Acosta, Martha Huerta, María  de Lourdes Rodrigues, Juan Francisco Xavier<br />
+    </p>
+    <p class="content5"><strong>Comité  Técnico y de Comunicaciones</strong>: Juan Viera, Mónica Maidana, Cynthia Machado, Jorge Rodríguez, Jesús Sum    </p>
+    <p class="content5"><strong>Estudiantes</strong> <strong>del CeRP del Norte</strong> <strong>en tareas de apoyo a la organización:</strong>
+Adolfo Zampetti, Alan Fontana, Alejandra da Silva, Alicia Escobar, Ana
+Madera, Analía Lopez, Anderson de los Santos, Antonella Gómez, Bianca
+Velázquez, Camila Carballo, Carolain Rous, Claudia Cabrera, Daiana
+Hernández, Débora Cardozo, Denice Morales, Elías Medina, Emeli
+Pallares, Emilia Farías, Estefanía Llaguno, Esteban Paz, Estefanía Paz,
+Eugenia Liendo, Eugenia Ramírez, Fabricio Fernández, Federico Pereira,
+Federico Techera, Fernanda González, Francielli González, Germán
+Custodio, Germán Rivero, Ignacio Núñez, Iris Zeballos, Jennifer Gimena
+Camargo, Jesica Taroco, Jésica Viera, Jimmy Santos, José Antonio, Jose
+Sampayo, Juliane Vargas, Julio dos Santos, Katy Leal, Keila Techera,
+Laura Viera, Magdalena Cardozo, Marcos Leal, Margarita Mattos, Maria
+Florencia Dávila, María José da Silva, Mariana Streccia, Mariela Dutra,
+Marilina Feo, Marisol Fagúndez, Marjorie Arrieta, Maximiliano Silva,
+Mayara Prado, Mayara Rolla, Mayra Prado, Micaela de Acevedo, Micaela de
+los Santos, Micaela Hernández, Mikaela de los Santos, Nadia Mylena
+Saldanha, Nahuel Silva, Natalia Aires, Natalia Farias, Natalie Perroni,
+Nora Farías, Pedro Bustamante, Rina dos Santos, Robert Ferreira, Romina
+Macedo, Sandra Gularte, Stefany Gómez, Sheila Lima, Stefany de los
+Santos, Tiago Nery, Veronica Ospitaleche, Victoria Manzoni, Walquiria
+Ramos, Yessica Quintana, Yoici Barboza</p>
+    
+    <p>&nbsp;</p>
+<p class="titulo"><br />
+</p>
+<hr class="regla01" />
+<p class="titulo"><br />
+  <a name="n99" id="n99"></a>Conferencistas centrales</p>
+    <p><strong>Prof. Lidia Fernandez</strong> UBA (Universidad de Buenos Aires)&nbsp;UNTREF (Universidad Nacional Tres de Febrero) Argentina <a href="#n01">Otros datos</a></p><p><strong>Prof. João Pedro Schmidt </strong>Universidade de Santa Cruz do Sul - UNISC <a href="Otros/n25.html#n03">Otros datos</a></p>
+    <p><strong>Dra. Adriana Marrero</strong> UdelaR - FCS  (Universidad de la Repúbica) Uruguay&nbsp; <a href="#n06">Otros datos</a></p>
+    <p><strong>Prof. Leonardo Pelusso</strong> UdelaR - (Universidad de la República) Uruguay <a href="#n01">Otros datos</a><br />
+    </p>
+    <p><strong></strong><a href="#n03"></a></p>
+    <p><strong>Dra. PHD. Rosane Carneiro Sarturi</strong> UFSM (Universidad Federal de Santa María) Brasil&nbsp; <a href="#n05">Otros datos</a></p>
+    <p><br />
+    </p>
+    <p><br />
+    </p>
+    <hr class="regla01" />
+    <p></p>
+    <p class="titulo"><a name="n99b" id="n"></a>Otros invitados</p>
+    <p><strong>Lic. Pablo Albertoni</strong> UdelaR (Universidad de la República - Uruguay) <a href="#bb05">Otros datos</a><br />
+    </p>
+    <p><span class="content1"><strong>Dra. Graciela Barrios</strong> UdelaR, NEISELF (Universidad de la República - Uruguay) <a href="#bb02">Otros datos</a></span><br />
+    </p>
+    <p><strong>Dr. Enrique Martínez Larrechea</strong> Soc. Uruguaya de Educación Comparada e internacional (Uruguay) <a href="#bb06">Otros datos</a><br />
+  </p>
+    <p><strong>Mag. Mariela Oroño</strong> FHCE, UdelaR (Universidad de la República - Uruguay) <a href="#bb03">Otros datos</a><br />
+    </p>
+    <p><strong>Dr. Charlie Palomo</strong> Universidad Tres de Febrero (Argentina) <a href="#bb01">Otros datos</a><br />
+    </p>
+<br />
+    <p><br />
+</p>
+    <hr class="regla01" />
+    <p>&nbsp;</p>
+    <p><span class="titulo"><a name="n37" id="n37"></a>Programa</span></p>
+    <p><span class="content3">Teatro  Municipal de Rivera. Av. 33 Orientales entre Uruguay y Fructuoso Rivera &nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+    <p><span class="content1">Teatro  Municipal de Rivera: Av. 33 Orientales entre Uruguay y Fructuoso Rivera</span><span class="content3">Municipal de Rivera. Av. 33 Orientales entre Uruguay y Fructuoso Rivera &nbsp;</span></p>
+    <table border="0" width="944">
+      <tbody>
+        <tr>
+          <td width="43">&nbsp;</td>
+          <td colspan="3" bgcolor="#003333"><p class="content3">Lunes 4 de setiembre&nbsp;&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td class="content4" valign="top" width="176"><p>08:00 - 09:00</p>
+            <p>&nbsp;</p></td>
+          <td colspan="2"><p class="content4">Acreditaciones</p>
+            <p>&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td class="content4" valign="top"><p>09:00 - 09:45</p>
+            <p>&nbsp;</p></td>
+          <td colspan="2"><p class="content4">Acto de Apertura</p>
+            <p> - Himnos Nacionales de Uruguay y de Brasil</p>
+            
+            <p>-
+Representantes del Equipo Organizador del evento: Dra. (c) Karina
+Nossar - Mag. Joni Ocaño - Dra. Patricia Viera </p>
+            <p>              -  Directora del Campus Santana do Livramento del Instituto Federal Sul-Rio-Grandense</p>
+            <p>              - Cónsul de Uruguay en  Livramento </p>
+            <p>              - Cónsul General de Brasil en Rivera </p>
+            <p> - Prefeito de  Sant’Ana do Livramento</p>
+            <p> -&nbsp;Intendente Departamental de Rivera, Dr. Marne Osorio</p>
+            <p> - Director del Centro Universitario de Rivera (UdelaR), Dr. Mario Clara</p>
+            <p> - Directora General del Consejo de Formación en Educación (ANEP),  Mag. Ana Lopater</p>
+            <p>&nbsp;</p>
+            <p><br />
+              <br />
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td class="content4" valign="top"> <p>09:45 - 10:00</p></td>
+          <td colspan="2"><p class="content4">Pausa para el café </p>
+          <p class="content4">&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td class="content4" valign="top"><p>10:00 - 11:00</p></td>
+          <td colspan="2"><p class="content4">Conferencia central<strong>: </strong><br />
+          </p>
+          <p><em>-</em>&nbsp;<strong>&nbsp;&nbsp;</strong></p>
+          <p><strong>Prof. Lidia Fernandez</strong><span class="derecha">&nbsp;</span></p>
+          <p>&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td class="content4" valign="top"><p>11:00 -&nbsp; 12:00</p>
+            <p><br />
+          </p></td>
+          <td colspan="2"><p class="content4">Conferencia central<strong>: </strong></p>
+            <p><em>-&nbsp; </em><strong>&nbsp;</strong></p>
+            <p><strong>Prof. João Pedro Schmidt&nbsp; </strong><span class="derecha"></span></p>
+          <p>&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td class="content4" valign="top"><p>12:00 -&nbsp; 14:00</p></td>
+          <td colspan="2"><p class="content4">Pausa para el almuerzo </p>
+          <p class="content4">&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td class="content4" valign="top"><p>14:30 - 15:30</p></td>
+          <td colspan="2"><p class="content4">Conferencia central<strong>: </strong></p>
+            <p><em>-</em></p>
+            <p> <span class="derecha"><strong>Dra. Adriana Marrero</strong></span> UdelaR</p>
+          <p>&nbsp;</p></td>
+        </tr>
+        
+        <tr>
+          <td>&nbsp;</td>
+          <td class="content4" valign="top"><p>15:45  - 16:45</p></td>
+          <td colspan="2"><p class="content4">Conferencia central<strong>: </strong></p>
+            <p><em>-</em></p>
+            <p><strong>Prof. Leonardo Pelusso&nbsp;</strong>UdelaR</p>
+          <p align="right">&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td class="content4" valign="top"><p>16:45 -17:00</p></td>
+          <td colspan="2"><p class="content4">Pausa para el café </p>
+          <p class="content4">&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td class="content4" valign="top"><p>17:00 -  17:30</p></td>
+          <td colspan="2"><p class="content4">Conferencia central<strong>: </strong></p>
+            <p><em>-</em></p>
+            <p> <strong>Dra. Rosane Carneiro Sarturi&nbsp;&nbsp;</strong>UFSM - Brasil          </p>
+          <p>&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td class="content4" valign="top"><p> </p></td>
+          <td colspan="2"><p class="content4"><strong> </strong></p>
+            <p><em></em></p>
+            <p><strong></strong><span class="derecha"></span></p>
+          <p>&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td class="content4" valign="top"><p>18:15 - 18:30</p></td>
+          <td colspan="2"> <p class="content4">Interludio musical&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td class="content4" valign="top"><p>18:30  - 20:00</p></td>
+          <td colspan="2"><p class="content4"><strong>Presentación de publicaciones académicas</strong></p>
+            <p>• Libro "Educación y Democracia: desafíos para la Transformación"&nbsp; Relatorías y Compilación de Ponencias de las&nbsp; <em></em>V Jornadas Binacionales de Educación y I Foro Regional de Educación. Patricia Viera-Karina  Nossar-Fernando Acevedo</p>
+            <p>• Revista <em>tópos para un debate de lo  educativo,</em> Nº 8 &nbsp;&nbsp;&nbsp;&nbsp; <br />
+            Presentadores: (a confirmar)&nbsp;</p>
+            <p>•&nbsp;<em></em></p>
+            <p>•&nbsp;<em></em><strong> </strong></p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;</p>
+          <p>&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td class="content4" valign="top"><p><br />
+          20:00 </p></td>
+          <td colspan="2"><p><br />
+Los autores, con la colaboración de la empresa de alimentación del
+Ce.R.P. del Norte, Tío Lucas, invitan a los presentes a compartir un <strong>brindis</strong></p>
+          <p>&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td class="content4" valign="top">&nbsp;</td>
+          <td colspan="2">&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td colspan="3" bgcolor="#003333"><p class="content3">Martes 5 de setiembre&nbsp;&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td class="content4" valign="top"> <p>08:30  –12:00</p>
+          <p>&nbsp;</p></td>
+          <td colspan="2"><p><strong>PRESENTACIÓN DE  PONENCIAS SELECCIONADAS</strong><br />
+            (MESAS TEMÁTICAS  SIMULTÁNEAS)<br />
+            Discusión y síntesis en cada mesa          
+           
+            </p><p><strong>• DESIGUALDADES Y POLÍTICAS EDUCATIVAS<br />
+            </strong>Moderadora: Analía  Mosqueira - Relatoría: Fernando Acevedo<br />
+Local: CUR  - Ituzaingó 667, salón 2</p>
+            <p>• <strong>EDUCACIÓN Y TIC<br />
+            </strong>Moderadora: María de Lourdes Rodrigues - Relatoría: Mariana Porta<br />
+Local: IFSul - Paul Harris 410, sala de eventos</p>
+            <p>• <strong>EDUCACIÓN COMPARADA E&nbsp;INTERNACONAL Y ESTUDIOS DE FRONTERA </strong><br />
+Moderadora:  Leticia Almeida - Relatoría:  Patricia Viera<br />
+Local: IFSul - Paul Harris  410, sala de reuniones</p>
+            <p>• <strong>FORMACIÓN DOCENTE</strong><br />
+              Moderadoras: Martha Huerta y Ana Acosta - Relatoría: Joni Ocaño<br />
+              Local:  IFD - Agraciada 892, salón de actos
+            </p>
+            
+            <p>• <strong>SOCIEDAD,  EDUCACIÓN Y LENGUAJE EN ZONA DE FRONTERA<br />
+              </strong>Moderadora: Graciela  Barrios - Relatoría: Karina Nossar <br />
+            Local: CUR  - Ituzaingó 667, salón 1</p>
+            <p>• <strong>EDUCACIÓN FÍSICA<br />
+            </strong>Moderador: Bruno Mora - Relatoría: Jésica Rodríguez y Camila Ribeiro<br />
+            Local: CUR - Ituzaingó  667, salón Melita Hernández</p>
+            <p>• <strong>EDUCACIÓN SOCIAL: <br />
+            </strong>Moderador: Walter López - Relatoría: Hernán Espiga<br />
+            Local: IDR - Agraciada 570, salón de actos</p>
+            <p><strong>• EDUCACIÓN RURAL<br />
+            </strong>Moderador: Pablo Díaz - Relatoría: Limber Santos<strong><br />
+            </strong>Local: IFD  - Agraciada 892, salón 6
+</p>
+          <p>&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td class="content4" valign="top"><p>12:00 - 14:00</p></td>
+          <td colspan="2"><p class="content4">Pausa para el almuerzo</p>
+          <p class="content4">&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td class="content4" valign="top"><p>14:00 - 18:30 </p></td>
+          <td colspan="2"><p><strong>PRESENTACIÓN DE  PONENCIAS SELECCIONADAS</strong> (Parte II)<br />
+            (MESAS TEMÁTICAS SIMULTÁNEAS)<br />
+          Discusión y síntesis en cada mesa           
+          </p><p></p></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td class="content4" valign="top"><p>20:30 </p></td>
+          <td colspan="2"><p><strong>Cena de camaradería </strong><br />Lugar a confirmar<br />
+              (Tickets con los organizadores)
+            </p><p><span class="content4"><br />
+              </span>
+            </p>
+            
+            <p class="content4"><br />
+  </p></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td valign="top">&nbsp;</td>
+          <td width="539">&nbsp;</td>
+          <td width="168">&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td colspan="3" class="content3" bgcolor="#003333" valign="top"><p>Miércoles 6 de setiembre</p></td>
+        </tr>
+        <tr>
+          <td height="238">&nbsp;</td>
+          <td class="content4" valign="top"><p><br />
+          09:00 - 12:00</p></td>
+          <td colspan="2"><p class="content4"> CIERRE&nbsp;<br />
+          </p>
+            <p class="content2">
+              <span class="content5">-Conferencia de Cierre: Conferencista a confirmar<br />
+              Propuestas para las VII Jornadas Binacionales de Educación en interacción con el público presente
+            </span></p>
+            <p><br />
+          </p></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td class="content4" valign="top"><p>
+            <br />
+            12:00  - 12:30</p>
+            <p>&nbsp;</p></td>
+          <td colspan="2"><p><span class="content4"><br />
+            Cierre artístico de la FRONTERA</span></p>
+            <p>a cargo del&nbsp;<br />
+              <br />
+            </p>
+            <p>&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td valign="top">&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>&nbsp;</p>
+    <p><a href="mgns/VJBE%20Programa.pdf">Puedes descargar el programa desde aquí</a></p>
+    <p><a href="#n00" class="content1">Arriba</a></p>
+    <p>&nbsp;</p>
+    <p class="titulo"><a href="http://ustre.am/1xgOP" target="_blank" data-saferedirecturl="https://www.google.com/url?hl=es&amp;q=http://ustre.am/1xgOP&amp;source=gmail&amp;ust=1473254969531000&amp;usg=AFQjCNHV53hobSxwZLWg_AjwuNObeXVt6A"></a></p>
+    <p></p>
+    <hr class="regla01" />
+    <p>&nbsp;</p>
+    <p class="titulo"><span class="arriba1"><a name="n27" id="n27"></a></span></p>
+    <p class="titulo"><img style="width: 452px; height: 638px;" alt="" src="2017JBE/AFICHE.jpg" /></p>
+    <p><a href="2017JBE/afiche%20jbe%202017.jpg">Descargar afiche desde aquí</a></p>
+    <p><br /></p>
+    <p>&nbsp;</p>
+    <hr class="regla01" />
+    <p>&nbsp;</p>
+    <p class="titulo">&nbsp;</p>
+    <p class="titulo"><span class="arriba1"><a name="n38" id="n38"></a></span></p>
+    <p class="titulo">Declaración de interés institucional por el CFE<br />
+      de las VI Jornadas Binacionales de Educación </p>
+    <p>El Consejo de Formación en Educación declara de interés institucional las V Jornadas Binacionales de Educación. <a href="2017JBE/Res.+DG+036_17+-+Decl.+Inter%C3%A9s+VI+Jor.+BINACIONALES+ED.+CERP+NORTE.PDF" target="new">Pulse aquí para ver la resolución</a></p>
+    <p class="titulo">Declaración de interés institucional por la Intendencia departamental de Rivera    de las V Jornadas Binacionales de Educación </p>
+    <p>El Intendente Departamental de Rivera declara de interés departamental las V Jornadas Binacionales de Educación. <a href="mgns/Declarac%20Intendencia.pdf" target="new">Pulse aquí para ver la resolución</a></p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+     <hr class="regla01" />
+    <p class="titulo">&nbsp;</p>
+    <p class="titulo">&nbsp;</p>
+    <p class="titulo"><span class="arriba1"><a name="n23" id="n23"></a></span>Presentación de ponencias</p>
+    <p class="content5">Las
+ponencias deben presentarse en un documento digital, su extensión no
+debe exceder las 5000 palabras y estarán precedidos de un resumen (en
+español y en una segunda lengua) de 200 palabras y con tres palabras
+clave. <br /> El texto seguirá las normas APA para las citas y
+referencias bibliográficas (www.normasapa.com). Las páginas estarán
+debidamente numeradas; y los cuadros, gráficos y tablas serán titulados
+y numerados de manera secuencial.<br />
+Se recomienda el uso de la fuente Arial, tamaño 12, con interlineado
+sencillo, sin sangrías y a texto corrido (sin salto de página).<br />
+    Las notas se incorporarán al final, antes de la bibliografía. Se sugiere que sean breves, simplemente aclaratorias.</p>
+    <p>&nbsp;</p>
+    <p class="titulo"><span class="arriba1"><a name="n233" id="n233"></a></span>Publicación de conferencias y ponencias</p>
+    <p class="content5">El
+Comité Científico realizará una compilación de las conferencias
+centrales y las ponencias seleccionadas para su posterior publicación
+en formatos digital y/o papel. A tales efectos, los autores deberán
+enviar sus aportes académicos al día 31 de octubre de 2017 al correo
+electrónico jornadasbinacionales@gmail.com con las pautas citadas
+anteriormente.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p><span class="titulo">Fechas de envío </span></p>
+    <p><strong>Fecha de envío de resúmenes:</strong></p>
+    <p>hasta el&nbsp;3 de agosto de 2017<br />
+    </p>
+    <p><strong>Fecha de envío de ponencias completas: </strong></p>
+    <p>hasta el 16 de agosto de 2017</p>
+    <p><strong>Fecha de comunicación de aceptación:</strong></p>
+    <p>hasta el 20 de agosto de 2017</p>
+    <p><strong>Fecha de envío de textos completos para publicación:</strong></p>
+    <p>&nbsp;</p>
+    <p class="titulo"><br />
+  </p>
+    <hr class="regla01" />
+    <p></p>
+    <p class="titulo">&nbsp;</p>
+    <p class="titulo">Valor de inscripción hasta 3/09</p>
+    <table style="width: 504px; height: 460px;" border="0" cellpadding="0" cellspacing="0">
+      <tbody><tr>
+        
+        <td valign="top" width="60"><p><span class="content">Asistentes</span></p><p><span class="content">ESTUDIANTES: $U50<br /><br />DOCENTES: $U 200<br /><br /></span></p></td>
+        <td valign="top" width="119"><p><span class="content">Ponentes&nbsp;</span></p><p><span class="content">ESTUDIANTES $U 100</span></p><p><span class="content">DOCENTES $U 500</span></p></td>
+      </tr>
+      <tr>
+        
+        <td valign="top" width="60"></td>
+        <td valign="top" width="119"><p><span class="content"></span></p></td>
+      </tr>
+      <tr>
+        
+        <td valign="top" width="60"><p><span class="content"></span><span style="font-weight: bold;">Valor de inscripción&nbsp; después del 3/09</span></p></td>
+        <td valign="top" width="119"></td>
+      </tr>
+      <tr>
+        
+        <td valign="top" width="60"><p><span class="content"></span>Asistentes</p>&nbsp; &nbsp;ESTUDIANTES: $100<br />&nbsp; &nbsp;DOCENTES: $ 400</td>
+        <td valign="top" width="119"><p>&nbsp;</p><p></p><p></p></td>
+      </tr>
+    </tbody></table>
+<p>&nbsp;</p>
+<p>Las inscripciones se pueden abonar en el momento en que se acrediten
+(en Rivera) o mediante depósito en la Caja de Ahorro 041-0414824 del BROU
+(Banco República)</p>
+<p class="titulo">&nbsp;</p>
+<p class="titulo">&nbsp;</p>
+<hr class="regla01" />
+<p></p>
+<p>&nbsp;</p>
+    <p><span class="titulo">Correo para contacto</span></p>
+    <p>jornadasbinacionales@gmail.com</p>
+    <p>&nbsp;</p>
+    <hr class="regla01" />
+    <p></p>
+    <p></p>
+    <p><span class="titulo"><span class="arriba1"><a name="n24" id="n24"></a></span>Páginas web anteriores</span></p>
+    <p><a href="2015/index2.html">IV Jornadas</a></p>
+    <p><a href="2014/index.html">V Jornadas</a></p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p><a href="#n00" class="content">Arriba</a></p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <hr class="regla01" />
+    <p></p>
+    <p><span class="titulo"><span class="arriba1"><a name="mt0" id="mt0"></a></span>Mesas temáticas</span></p>
+    <p><a href="#mt1">Desigualdades y políticas educativas</a><br />
+      <a href="#mt2">Educación y TIC</a><br />
+      <a href="#mt3">Educación comparada e internacional y estudios de frontera</a><br />
+      <a href="#mt4">Formación docente</a><br />
+      <a href="#mt5">Sociedad, educación y lenguaje en zona de frontera</a><br />
+      <a href="#mt6">Educación Física</a><br />
+      <a href="#mt7">Educación Social</a><br />
+    <a href="#mt8">Educación Rural</a></p>
+    <p><a href="#n00" class="content1">Arriba</a></p>
+    <p align="center">&nbsp;</p>
+    <p align="center">&nbsp;</p>
+    <table align="center" border="1" cellpadding="0" cellspacing="0" width="798">
+      <tbody><tr>
+        <td colspan="3" class="content3" bgcolor="#003333" height="77" valign="top"><p><strong><span class="titulo"><span class="arriba1"><a name="mt1" id="mt1"></a></span></span>MESA TEMÁTICA 1: <em>DESIGUALDADES  Y POLÍTICAS EDUCATIVAS</em></strong><br />
+        MODERADORA: Analía  Mosqueira – RELATOR: Fernando Acevedo </p>
+        <p> Local: CUR - Ituzaingó 667, salón 2</p></td>
+      </tr>
+      <tr>
+        <td colspan="3" valign="top">&nbsp;</td>
+      </tr>
+      <tr>
+        <td colspan="3" valign="top"><br />
+          <strong>&nbsp;M A Ñ    A N A</strong></td>
+      </tr>
+      <tr>
+        <td colspan="3" valign="top"><p>&nbsp;</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="80"><p><strong>08:30</strong></p></td>
+        <td colspan="2" valign="top"><p>Acreditaciones</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="80"><p><strong>08:55</strong></p></td>
+        <td colspan="2" valign="top"><p>Presentación    y dinámica de trabajo (Acevedo y Mosqueira)</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="80"><p><strong>09:00</strong></p></td>
+        <td valign="top" width="278"><p> </p></td>
+        <td valign="top" width="432"><p><br /></p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="80"><p><strong>09:30</strong></p></td>
+        <td colspan="2" valign="top"><p>Intercambio    ponentes/asistentes</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="80"><p><strong>09:45</strong></p></td>
+        <td valign="top" width="278"><p><br /></p></td>
+        <td valign="top" width="432"><p><br /></p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="80"><p><strong>10:15</strong></p></td>
+        <td colspan="2" valign="top"><p>Intercambio    ponentes/asistentes</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="80"><p><strong>10:30</strong></p></td>
+        <td colspan="2" valign="top"><p>Pausa para el café</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="80"><p><strong>11:00</strong></p></td>
+        <td valign="top" width="278"><p> </p></td>
+        <td valign="top" width="432"><p><br /></p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="80"><p><strong>11:30</strong></p></td>
+        <td colspan="2" valign="top"><p>Intercambio    ponentes/asistentes</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="80"><p><strong>12:00</strong></p></td>
+        <td colspan="2" valign="top"><p>Pausa para el almuerzo</p></td>
+      </tr>
+   
+      <tr>
+        <td colspan="3" valign="top">&nbsp;</td>
+      </tr>
+      <tr>
+        <td colspan="3" valign="top"><p><strong>&nbsp;T A R    D E</strong></p></td>
+      </tr>
+      <tr>
+        <td colspan="3" valign="top"><p>&nbsp;</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="80"><p><strong>14:00</strong></p></td>
+        <td valign="top" width="278"><p> </p></td>
+        <td valign="top" width="432"><p><br /></p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="80"><p><strong>14:30</strong></p></td>
+        <td colspan="2" valign="top"><p>Intercambio    ponentes/asistentes</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="80"><p><strong>14:45</strong></p></td>
+        <td valign="top" width="278"><p> </p></td>
+        <td valign="top" width="432"><p><br /></p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="80"><p><strong>15:15</strong></p></td>
+        <td colspan="2" valign="top"><p>Intercambio    ponentes/asistentes.</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="80"><p><strong>15:30</strong></p></td>
+        <td colspan="2" valign="top"><p>Pausa para el café</p></td>
+      </tr>
+      <tr>
+        <td valign="top"><p><strong>        15:45</strong></p></td>
+        <td valign="top"><p><br /></p></td>
+        <td valign="top"><p><br /></p></td>
+      </tr>
+      <tr>
+        <td valign="top"><p><strong>16:15</strong></p></td>
+        <td colspan="2" valign="top"><p>Intercambio    ponentes/asistentes.</p></td>
+      </tr>
+      <tr>
+        <td valign="top"><p><strong>16:30</strong></p></td>
+        <td valign="top"><p><br /></p></td>
+        <td valign="top"><p><br /></p></td>
+      </tr>
+      <tr>
+        <td valign="top"><p><strong>17:00 </strong></p></td>
+        <td colspan="2" valign="top"><p>Intercambio    ponentes/asistentes.</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="80"><p><strong>17:15</strong></p></td>
+        <td valign="top" width="278"><p> </p></td>
+        <td valign="top" width="432"><p><em></em><br /></p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="80"><p><strong>17:45</strong></p></td>
+        <td colspan="2" valign="top"><p>CIERRE    Y RESUMEN DE LA JORNADA</p></td>
+      </tr>
+    </tbody></table>
+<p>&nbsp;</p>
+<p><a href="#mt0" class="content1">Volver</a></p>
+<p align="center">&nbsp;</p>
+<table align="center" border="1" cellpadding="0" cellspacing="0" width="810">
+  <tbody><tr>
+    <td colspan="3" class="content3" bgcolor="#003333" valign="top"><p><strong><span class="arriba1"><a name="mt2" id="mt2"></a></span>MESA  TEMÁTICA 2: <em>EDUCACIÓN Y TIC</em></strong><br />
+      MODERADORA:   María de Lourdes Rodríguez – RELATORA: Mariana Porta </p>
+      <p>Local: IFSul - Paul Harris 410, sala de eventos</p></td>
+  </tr>
+  <tr>
+    <td colspan="3" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="3" valign="top"><br />
+      <strong>&nbsp;</strong><strong>M A Ñ A N A</strong></td>
+  </tr>
+  <tr>
+    <td colspan="3" valign="top"><p>&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td valign="top" width="85"><p><strong>08:30</strong></p></td>
+    <td colspan="2" valign="top"><p>Acreditaciones</p></td>
+  </tr>
+  <tr>
+    <td valign="top" width="85"><p><strong>09:00</strong></p></td>
+    <td colspan="2" valign="top"><p>Bienvenida a cargo de la Lic. Mariana Porta</p></td>
+  </tr>
+  <tr>
+    <td valign="top"><p><strong>09:05</strong></p></td>
+    <td colspan="2" valign="top"><p>Presentación y plan de trabajo  (Ps. María de Lourdes Rodrigues)</p> </td>
+  </tr>
+  <tr>
+    <td height="27" valign="top" width="85"><p><strong>09:10</strong></p></td>
+    <td valign="top" width="272"><p><br /></p></td>
+    <td valign="top"><p><br /></p></td>
+  </tr>
+  <tr>
+    <td height="27" valign="top"><p><strong>09:25</strong></p></td>
+    <td valign="top"><p><br /></p></td>
+    <td valign="top"><p><br /></p></td>
+  </tr>
+  <tr>
+    <td height="27" valign="top"><p><strong>09:40</strong></p></td>
+    <td valign="top">      <p><br /></p></td>
+    <td valign="top">      <p><br /></p></td>
+  </tr>
+  <tr>
+    <td valign="top" width="85"><p><strong>09:55</strong></p></td>
+    <td colspan="2" valign="top"><p>Intercambio  ponentes/asistentes</p></td>
+  </tr>
+  <tr>
+    <td valign="top" width="85"><p><strong>10:10</strong></p></td>
+    <td colspan="2" valign="top"><p>Pausa para el café</p></td>
+  </tr>
+  <tr>
+    <td valign="top" width="85"><p><strong>10:30</strong></p></td>
+    <td valign="top" width="272"><p><br /></p></td>
+    <td valign="top" width="445"><p><br /></p></td>
+  </tr>
+  <tr>
+    <td valign="top" width="85"><p><strong>10:45</strong></p></td>
+    <td valign="top"><p><br /></p></td>
+    <td valign="top"><p><br /></p></td>
+  </tr>
+  <tr>
+    <td valign="top" width="85"><p><strong>11:00</strong></p></td>
+    <td valign="top"><p>   </p></td>
+    <td valign="top"><p><br /></p></td>
+  </tr>
+  <tr>
+    <td valign="top" width="85"><p><strong>11:15</strong></p></td>
+    <td valign="top"> <p><br /></p></td>
+    <td valign="top"><br /></td>
+  </tr>
+  <tr>
+    <td valign="top"><p><strong>11:30</strong></p></td>
+    <td colspan="2" valign="top">      <p>Intercambio  ponentes/asistentes</p></td>
+  </tr>
+  <tr>
+    <td valign="top"><p><strong>12:00</strong></p></td>
+    <td colspan="2" valign="top"><p>Pausa para el almuerzo</p></td>
+    </tr>
+  <tr>
+    <td colspan="3" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="3" valign="top"><p><strong>&nbsp;T A R D E</strong></p></td>
+  </tr>
+  <tr>
+    <td colspan="3" valign="top"><p>&nbsp;</p></td>
+  </tr>
+  <tr>
+    <td valign="top" width="85"><p><strong>14:00&nbsp;</strong></p></td>
+    <td valign="top" width="272"><p><br /></p></td>
+    <td valign="top" width="445"><p><br /></p></td>
+  </tr>
+  <tr>
+    <td valign="top" width="85"><p><strong>14:15</strong></p></td>
+    <td valign="top" width="272"><p> </p></td>
+    <td valign="top" width="445"><p><br /></p></td>
+  </tr>
+  <tr>
+    <td valign="top" width="85"><p><strong>14:30</strong></p></td>
+    <td valign="top"><p><br /></p></td>
+    <td valign="top">      <p><br /></p></td>
+  </tr>
+  <tr>
+    <td valign="top" width="85"><p><strong>14:45&nbsp;</strong></p></td>
+    <td colspan="2" valign="top"><p>Intercambio  ponentes/asistentes</p></td>
+    </tr>
+  <tr>
+    <td valign="top" width="85"><p><strong>15:00&nbsp;</strong></p></td>
+    <td colspan="2" valign="top"><p>Pausa para el café</p></td>
+  </tr>
+  <tr>
+    <td valign="top" width="85"><p><strong>15:15&nbsp;</strong></p></td>
+    <td valign="top" width="272"><p><br /></p></td>
+    <td valign="top" width="445"><p><br /></p></td>
+  </tr>
+  <tr>
+    <td valign="top" width="85"><p><strong>15:30</strong></p></td>
+    <td valign="top" width="272"><p><br /></p></td>
+    <td valign="top" width="445"><p><br /></p></td>
+  </tr>
+  <tr>
+    <td valign="top"><p><strong>15:45&nbsp;</strong></p></td>
+    <td valign="top"><p><br /></p></td>
+    <td valign="top"><p><br /></p></td>
+  </tr>
+  <tr>
+    <td valign="top"><p><strong>16:00</strong></p></td>
+    <td valign="top"><p><br /></p></td>
+    <td valign="top"><p><br /></p></td>
+  </tr>
+  <tr>
+    <td valign="top" width="85"><p><strong>17:00</strong></p></td>
+    <td colspan="2" valign="top"><p>Intercambio  ponentes/asistentes</p></td>
+  </tr>
+  <tr>
+    <td valign="top" width="85"><p><strong>17:15&nbsp;</strong></p></td>
+    <td colspan="2" valign="top"><p>CIERRE Y RESUMEN DE LA JORNADA</p></td>
+  </tr>
+</tbody></table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><a href="#mt0" class="content1">Volver</a></p>
+   <table align="center" border="1" cellpadding="0" cellspacing="0" width="810">
+      <tbody><tr>
+        <td colspan="3" class="content3" bgcolor="#003333" valign="top"><p><strong><span class="arriba1"><a name="mt3" id="mt3"></a></span>MESA  TEMÁTICA 3:  <em>EDUCACIÓN COMPARADA E INTERNACIONAL</em> <em>Y ESTUDIOS DE FRONTERA</em></strong><br />
+        MODERADORA:  Letícia Almeida – RELATORA:  Patricia Viera </p>
+        <p>Local: IFSul - Paul Harris 410, sala de reuniones</p></td>
+      </tr>
+      <tr>
+        <td colspan="3" valign="top">&nbsp;</td>
+      </tr>
+      <tr>
+        <td colspan="3" valign="top"><br />
+          <strong>&nbsp;M A Ñ A N A</strong></td>
+      </tr>
+      <tr>
+        <td colspan="3" valign="top"><p>&nbsp;</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="85"><p align="center"><strong>08:30</strong></p></td>
+        <td colspan="2" valign="top"><p>Acreditaciones</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="85"><p><strong>09:00</strong></p></td>
+        <td colspan="2" valign="top"><p>Bienvenida a cargo de representantes de IFSul, LEPIF, CUR, ETS,    IFD y CeRP del Norte</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="85"><p><strong>09:05</strong></p></td>
+        <td colspan="2" valign="top"><p>Presentación y dinámica de trabajo (Patricia Viera y Letícia    Almeida)</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="85"><p><strong>09:10</strong></p></td>
+        <td valign="top" width="271"><p> </p></td>
+        <td valign="top" width="446"><p> </p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="85"><p><strong>09:40</strong></p></td>
+        <td valign="top" width="271"><p> </p></td>
+        <td valign="top" width="446"><p><br /></p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="85"><p><strong>10:05</strong></p></td>
+        <td colspan="2" valign="top"><p>Intercambio ponentes/asistentes</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="85"><p><strong>10:20</strong></p></td>
+        <td colspan="2" valign="top"><p>Pausa para el café</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="85"><p><strong>10:50</strong></p></td>
+        <td valign="top" width="271"><p> </p></td>
+        <td valign="top" width="446"><p><br /></p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="85"><p><strong>11:35</strong></p></td>
+        <td colspan="2" valign="top"><p>Intercambio ponentes/asistentes</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="85"><p><strong>12:00</strong></p></td>
+        <td colspan="2" valign="top"><p>Pausa para el almuerzo</p></td>
+      </tr>
+    
+      <tr>
+        <td colspan="3" valign="top"><p><strong>&nbsp;T A R D E</strong></p></td>
+      </tr>
+      <tr>
+        <td colspan="3" valign="top"><p>&nbsp;</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="85"><p><strong>14:00</strong></p></td>
+        <td valign="top" width="271"><p> </p></td>
+        <td valign="top" width="446"><p> </p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="85"><p><strong>14:20</strong></p></td>
+        <td valign="top" width="271"><p> </p></td>
+        <td valign="top" width="446"><p> </p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="85"><p><strong>14:45</strong></p></td>
+        <td valign="top" width="271"><p><br /></p></td>
+        <td valign="top" width="446"><p> </p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="85"><p><strong>15:10</strong></p></td>
+        <td valign="top" width="271"><p><br /></p></td>
+        <td valign="top" width="446"><p> </p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="85"><p><strong>15:40</strong></p></td>
+        <td colspan="2" valign="top"><p>Intercambio ponentes/asistentes</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="85"><p><strong>15:50</strong></p></td>
+        <td colspan="2" valign="top"><p>Pausa para el café</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="85"><p><strong>16:20 </strong></p></td>
+        <td valign="top" width="271"><p> </p></td>
+        <td valign="top" width="446"><p><br /></p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="85"><p><strong>16:40</strong></p></td>
+        <td colspan="2" valign="top"><p>Debate    con los participantes invitados: actores involucrados en políticas    internacionales y de frontera</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="85"><p><strong>17:05 </strong></p></td>
+        <td valign="top" width="271"><p> </p></td>
+        <td valign="top" width="446"><p><br /></p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="85"><p><strong>17:35</strong></p></td>
+        <td colspan="2" valign="top"><p>CIERRE Y RESUMEN DE LA JORNADA.</p></td>
+      </tr>
+    </tbody></table>
+<p>&nbsp;</p>
+<p><a href="#mt0" class="content1">Volver</a></p>
+    <p align="center">&nbsp;</p>
+    <table align="center" border="1" cellpadding="0" cellspacing="0" width="810">
+      <tbody><tr>
+        <td colspan="3" class="content3" bgcolor="#003333" valign="top"><p><strong><span class="arriba1"><a name="mt4"></a></span>MESA  TEMÁTICA 4: <em>FORMACIÓN DOCENTE</em></strong> <br />
+        MODERADORA:  Martha Huerta y Ana Acosta – RELATOR: Joni  Ocaño</p>
+        <p>Local: IFD - Agraciada 892, salón de actos</p></td>
+      </tr>
+      <tr>
+        <td colspan="3" valign="top">&nbsp;</td>
+      </tr>
+      <tr>
+        <td colspan="3" valign="top"><br />
+          <strong>&nbsp;M A Ñ A N A</strong></td>
+      </tr>
+      <tr>
+        <td colspan="3" valign="top"><p>&nbsp;</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="93"><p><strong>08:30</strong></p></td>
+        <td colspan="2" valign="top"><p>Acreditaciones</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="93"><p><strong>09:00</strong></p></td>
+        <td colspan="2" valign="top"><p>Presentación y dinámica de trabajo (Joni Ocaño)</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="93"><p><strong>09:05 </strong></p></td>
+        <td valign="top" width="259"><p> </p></td>
+        <td valign="top" width="450"><p><br /></p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="93"><p><strong>09:25 </strong></p></td>
+        <td colspan="2" valign="top"><p>Intercambio ponentes/asistentes</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="93"><p><strong>09:40</strong></p></td>
+        <td valign="top" width="259"><p> </p></td>
+        <td valign="top" width="450"><p><br /></p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="93"><p><strong>10:00</strong></p></td>
+        <td colspan="2" valign="top"><p>Intercambio ponentes/asistentes</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="93"><p><strong>10:15</strong></p></td>
+        <td colspan="2" valign="top"><p>Pausa para el café</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="93"><p><strong>10:30</strong></p></td>
+        <td valign="top" width="259"><p> </p></td>
+        <td valign="top" width="450"><p><br /></p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="93"><p><strong>10:50</strong></p></td>
+        <td colspan="2" valign="top"><p>Intercambio ponentes/asistentes. </p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="93"><p><strong>11:05 </strong></p></td>
+        <td valign="top" width="259"><p> </p></td>
+        <td valign="top" width="450"><p> </p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="93"><p><strong>11:25 </strong></p></td>
+        <td colspan="2" valign="top"><p>Intercambio ponentes/asistentes</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="93"><p><strong>11:40</strong></p></td>
+        <td valign="top" width="259"><p> </p></td>
+        <td valign="top" width="450"><p> </p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="93"><p><strong>12:00</strong></p></td>
+        <td colspan="2" valign="top"><p>Intercambio ponentes/asistentes</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="93"><p><strong>12:15</strong></p></td>
+        <td colspan="2" valign="top"><p>Pausa para el almuerzo</p></td>
+      </tr>
+    
+      <tr>
+        <td colspan="3" valign="top"><p><strong>&nbsp;T A R D E</strong></p></td>
+      </tr>
+      <tr>
+        <td colspan="3" valign="top"><p>&nbsp;</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="93"><p><strong>14:00</strong><strong> </strong></p></td>
+        <td valign="top" width="259"><p> </p></td>
+        <td valign="top" width="450"><p><br /></p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="93"><p><strong>14:20</strong><strong> </strong></p></td>
+        <td colspan="2" valign="top"><p>Intercambio ponentes/asistentes</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="93"><p><strong>14:35</strong><strong> </strong></p></td>
+        <td valign="top" width="259"><p> </p></td>
+        <td valign="top" width="450"><p> </p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="93"><p><strong>14:55</strong><strong> </strong></p></td>
+        <td colspan="2" valign="top"><p>Intercambio ponentes/asistentes</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="93"><p><strong>15:10</strong><strong> </strong></p></td>
+        <td valign="top" width="259"><p> </p></td>
+        <td valign="top" width="450"><p> </p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="93"><p><strong>15:30</strong><strong> </strong></p></td>
+        <td colspan="2" valign="top"><p>Intercambio ponentes/asistentes</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="93"><p><strong>15:45</strong><strong> </strong></p></td>
+        <td colspan="2" valign="top"><p>Pausa para el café</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="93"><p><strong>16:00</strong></p></td>
+        <td valign="top" width="259"><p> </p></td>
+        <td valign="top" width="450"><p> </p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="93"><p><strong>16:20</strong></p></td>
+        <td colspan="2" valign="top"><p>Intercambio ponentes/asistentes</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="93"><p><strong>16:35</strong></p></td>
+        <td valign="top" width="259"><p> </p></td>
+        <td valign="top" width="450"><p><br /></p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="93"><p><strong>16:55</strong></p></td>
+        <td colspan="2" valign="top"><p>Intercambio ponentes/asistentes</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="93"><p><strong>17:10 </strong></p></td>
+        <td valign="top" width="259"><p><em><br /></em></p></td>
+        <td valign="top" width="450"><p><br /></p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="93"><p><strong>17:30</strong></p></td>
+        <td colspan="2" valign="top"><p>Intercambio ponentes/asistentes</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="93"><p><strong>17:45</strong></p></td>
+        <td colspan="2" valign="top"><p>CIERRE Y RESUMEN DE LA JORNADA</p></td>
+      </tr>
+    </tbody></table>
+    <p>&nbsp;</p>
+    <p><a href="#mt0" class="content1">Volver</a><br clear="all" />
+    </p>
+    <div>
+      <p align="center">&nbsp;</p>
+      <table align="center" border="1" cellpadding="0" cellspacing="0" width="810">
+        <tbody><tr>
+          <td colspan="3" class="content3" bgcolor="#003333" valign="top"><p><strong><span class="arriba1"><a name="mt5" id="mt5"></a></span>MESA  TEMÁTICA 5: <em>SOCIEDAD, EDUCACIÓN Y LENGUAJE EN</em></strong> <strong><em> ZONA DE FRONTERA</em></strong><br />
+          MODERADORA:  Graciela Barrios – RELATORA:  Karina Nossar</p>
+          <p>Local: CUR - Ituzaingó 667, salón 1</p></td>
+        </tr>
+        <tr>
+          <td colspan="3" valign="top">&nbsp;</td>
+        </tr>
+        <tr>
+          <td colspan="3" valign="top"><br />
+            <strong>&nbsp;M A Ñ A N A</strong></td>
+        </tr>
+        <tr>
+          <td colspan="3" valign="top"><p>&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td valign="top" width="85"><p><strong>08:30</strong></p></td>
+          <td colspan="2" valign="top"><p>Acreditaciones</p></td>
+        </tr>
+        <tr>
+          <td valign="top" width="85"><p><strong>09:00</strong></p></td>
+          <td valign="top" width="271"><p> </p></td>
+          <td valign="top" width="446"><p><br /></p></td>
+        </tr>
+        <tr>
+          <td valign="top" width="85"><p><strong>09:30</strong></p></td>
+          <td valign="top" width="271"><p> </p></td>
+          <td valign="top" width="446"><p><br /></p></td>
+        </tr>
+        <tr>
+          <td valign="top" width="85"><p><strong>10:00</strong></p></td>
+          <td colspan="2" valign="top"><p>Pausa para el café</p></td>
+        </tr>
+        <tr>
+          <td valign="top" width="85"><p><strong>10:15</strong></p></td>
+          <td valign="top" width="271"><p> </p></td>
+          <td valign="top" width="446"><p><br /><strong> </strong></p></td>
+        </tr>
+        <tr>
+          <td valign="top" width="85"><p><strong>10:45</strong></p></td>
+          <td valign="top" width="271"><p> </p></td>
+          <td valign="top" width="446"><p><br /></p></td>
+        </tr>
+        <tr>
+          <td valign="top" width="85"><p><strong>11:15</strong></p></td>
+          <td colspan="2" valign="top"><p>Intercambio ponentes/asistentes</p></td>
+        </tr>
+        <tr>
+          <td valign="top" width="85"><p><strong>12:00</strong></p></td>
+          <td colspan="2" valign="top"><p>Pausa para el almuerzo</p></td>
+        </tr>
+      
+        <tr>
+          <td colspan="3" valign="top"><p><strong>&nbsp;T A R D E</strong></p></td>
+        </tr>
+        <tr>
+          <td colspan="3" valign="top"><p>&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td valign="top" width="85"><p><strong>14:00</strong><strong> </strong></p></td>
+          <td valign="top" width="271"><p> </p></td>
+          <td valign="top" width="446"><p><br /></p></td>
+        </tr>
+        <tr>
+          <td valign="top" width="85"><p><strong>14:30 </strong></p></td>
+          <td valign="top" width="271"><p> </p></td>
+          <td valign="top" width="446"><p><br /></p></td>
+        </tr>
+        <tr>
+          <td valign="top"><p><strong>14:50</strong></p></td>
+          <td valign="top"><p><br /></p></td>
+          <td valign="top"><p><br /></p></td>
+        </tr>
+        <tr>
+          <td valign="top" width="85"><p><strong>15:10 </strong></p></td>
+          <td valign="top" width="271"><p><br /></p></td>
+          <td valign="top" width="446"><p><br /></p></td>
+        </tr>
+        <tr>
+          <td valign="top" width="85"><p><strong>15:30</strong></p></td>
+          <td colspan="2" valign="top"><p>Pausa para el café</p></td>
+        </tr>
+        <tr>
+          <td valign="top" width="85"><p><strong>15:45</strong></p></td>
+          <td valign="top" width="271"><p> </p></td>
+          <td valign="top" width="446"><p><br /></p></td>
+        </tr>
+        <tr>
+          <td valign="top" width="85"><p><strong>16:15 </strong></p></td>
+          <td valign="top" width="271"><p> </p></td>
+          <td valign="top" width="446"><p><br /></p></td>
+        </tr>
+        <tr>
+          <td valign="top" width="85"><p><strong>16:45 </strong></p></td>
+          <td valign="top" width="271"><p> </p></td>
+          <td valign="top" width="446"><p><br /></p></td>
+        </tr>
+        <tr>
+          <td valign="top" width="85"><p><strong>17:15 </strong></p></td>
+          <td colspan="2" valign="top"><p>Intercambio    ponentes/asistentes</p></td>
+        </tr>
+        <tr>
+          <td valign="top" width="85"><p><strong>18:00 </strong></p></td>
+          <td colspan="2" valign="top"><p>CIERRE Y RESUMEN DE LA JORNADA</p></td>
+        </tr>
+      </tbody></table>
+    </div>
+    <p>&nbsp;</p>
+    <p><a href="#mt0" class="content1">Volver</a><br clear="all" />
+    </p>
+    <div>
+      <p align="center">&nbsp;</p>
+      <table align="center" border="1" cellpadding="0" cellspacing="0" width="810">
+      <tbody><tr>
+        <td colspan="3" class="content3" bgcolor="#003333" valign="top"><p><strong><span class="arriba1"><a name="mt6" id="mt6"></a></span>MESA  TEMÁTICA 6: <em>EDUCACIÓN FÍSICA</em></strong><br />
+          MODERADOR:  Bruno Mora – RELATORAS: Jesica Rodríguez y Camila Ribeiro</p>
+          <p>Local: CUR - Ituzaingó 667, salón Melita Hernández</p></td>
+      </tr>
+      <tr>
+        <td colspan="3" valign="top">&nbsp;</td>
+      </tr>
+      <tr>
+        <td colspan="3" valign="top"><br />
+          <strong>&nbsp;M A Ñ A N A</strong></td>
+      </tr>
+      <tr>
+        <td colspan="3" valign="top"><p>&nbsp;</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="89"><p><strong>08:30</strong></p></td>
+        <td colspan="2" valign="top"><p>Acreditaciones</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="89"><p><strong>08:35</strong></p></td>
+        <td valign="top" width="267"><p><br /></p></td>
+        <td valign="top" width="446"><p><br /></p></td>
+      </tr>
+      <tr>
+        <td valign="top"><p><strong>09:00</strong></p></td>
+        <td valign="top"><p><br /></p></td>
+        <td valign="top"><p><br /></p></td>
+      </tr>
+      <tr>
+        <td valign="top"><p><strong>09:30</strong></p></td>
+        <td valign="top"><p><br /></p></td>
+        <td valign="top"><p><br /></p></td>
+      </tr>
+      <tr>
+        <td valign="top"><p><strong>10:00</strong></p></td>
+        <td valign="top"><p><br /></p></td>
+        <td valign="top"><p><br /></p></td>
+      </tr>
+      <tr>
+        <td valign="top">&nbsp;</td>
+        <td colspan="2" valign="top"><p>Pausa para el café</p></td>
+        </tr>
+      <tr>
+        <td valign="top"><p><strong>11:00</strong></p></td>
+        <td valign="top"><p><br /></p></td>
+        <td valign="top"><p><br /></p></td>
+      </tr>
+      <tr>
+        <td valign="top"><p><strong>11:30</strong></p></td>
+        <td valign="top"><p><br /></p></td>
+        <td valign="top"><p><br /></p></td>
+      </tr>
+      <tr>
+        <td valign="top"><p><strong>12:00</strong></p></td>
+        <td colspan="2" valign="top">Pausa para el almuerzo</td>
+      </tr>
+      <tr>
+        <td valign="top">&nbsp;</td>
+        <td valign="top">&nbsp;</td>
+        <td valign="top">&nbsp;</td>
+      </tr>
+      <tr>
+        <td colspan="3" valign="top"><strong>&nbsp;T A R D E</strong></td>
+      </tr>
+      <tr>
+        <td valign="top">&nbsp;</td>
+        <td valign="top">&nbsp;</td>
+        <td valign="top">&nbsp;</td>
+      </tr>
+      <tr>
+        <td valign="top" width="89"><p><strong>14:00</strong><strong> </strong></p></td>
+        <td valign="top" width="267"><p> </p></td>
+        <td valign="top" width="446"><p> </p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="89"><p><strong>14:30</strong></p></td>
+        <td valign="top" width="267"><p><br /></p></td>
+        <td valign="top" width="446"><p> </p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="89"><p><strong>15:00</strong></p></td>
+        <td valign="top" width="267"><p> </p></td>
+        <td valign="top" width="446"><p> </p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="89"><p><strong>15:30</strong></p></td>
+        <td colspan="2" valign="top"><p>Pausa para el café</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="89"><p><strong>16:00</strong><strong> </strong></p></td>
+        <td valign="top" width="267"><p><br /></p></td>
+        <td valign="top" width="446"><p><br /></p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="89"><p><strong>16:30</strong><strong> </strong></p></td>
+        <td valign="top" width="267"><p><br /></p></td>
+        <td valign="top" width="446"><p><br /></p></td>
+      </tr>
+      <tr>
+        <td valign="top"><p><strong>17:00</strong><strong> </strong></p></td>
+        <td valign="top"><p><br /></p></td>
+        <td valign="top"><p><br /></p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="89"><p><strong>17:45</strong></p></td>
+        <td colspan="2" valign="top"><p>CIERRE Y RESUMEN DE LA JORNADA</p></td>
+      </tr>
+      </tbody></table>
+    </div>
+    <p>&nbsp;</p>
+    <p><a href="#mt0" class="content1">Volver</a><br clear="all" />
+    </p>
+    <div>
+      <p align="center">&nbsp;</p>
+      <table align="center" border="1" cellpadding="0" cellspacing="0" width="810">
+        <tbody><tr>
+          <td colspan="3" class="content3" bgcolor="#003333" valign="top"><p><strong><span class="arriba1"><a name="mt7" id="mt7"></a></span>MESA  TEMÁTICA 7: <em>EDUCACIÓN SOCIAL</em></strong><br />
+          MODERADOR:   Walter López – RELATOR: Hernán Espiga</p>
+          <p>Local: IDR - Agraciada 570, salón de actos</p></td>
+        </tr>
+        <tr>
+          <td colspan="3" valign="top">&nbsp;</td>
+        </tr>
+        <tr>
+          <td colspan="3" valign="top"><br />
+            <strong>&nbsp;M A Ñ A N A</strong></td>
+        </tr>
+        <tr>
+          <td colspan="3" valign="top"><p>&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td valign="top" width="100"><p><strong>08:30</strong></p></td>
+          <td colspan="2" valign="top"><p>Acreditaciones</p></td>
+        </tr>
+        <tr>
+          <td valign="top" width="100"><p><strong>08:55</strong></p></td>
+          <td colspan="2" valign="top"><p>Presentación    y dinámica de trabajo (Hernán Espiga)</p></td>
+        </tr>
+        <tr>
+          <td valign="top" width="100"><p><strong>09:00</strong></p></td>
+          <td valign="top" width="254"><p><br /></p></td>
+          <td valign="top" width="448"><p><br /></p></td>
+        </tr>
+        <tr>
+          <td valign="top" width="100"><p><strong>09:30</strong></p></td>
+          <td valign="top" width="254"><p><br /></p></td>
+          <td valign="top" width="448"><p><br /></p></td>
+        </tr>
+        <tr>
+          <td valign="top" width="100"><p><strong>10:00</strong></p></td>
+          <td colspan="2" valign="top"><p>Intercambio    ponentes/asistentes</p></td>
+        </tr>
+        <tr>
+          <td valign="top" width="100"><p><strong>10:15</strong></p></td>
+          <td colspan="2" valign="top"><p>Pausa para el café</p></td>
+        </tr>
+        <tr>
+          <td valign="top" width="100"><p><strong>10:30</strong></p></td>
+          <td colspan="2" valign="top"><p><br /></p></td>
+        </tr>
+        <tr>
+          <td valign="top" width="100"><p><strong>12:00</strong></p></td>
+          <td colspan="2" valign="top"><p>Pausa para el almuerzo</p></td>
+        </tr>
+      
+        <tr>
+          <td colspan="3" valign="top"><p><strong>&nbsp;T A R D E</strong></p></td>
+        </tr>
+        <tr>
+          <td colspan="3" valign="top"><p>&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td valign="top" width="100"><p><strong>14:00</strong></p></td>
+          <td valign="top" width="254"><p> </p></td>
+          <td valign="top" width="448"><p><br /></p></td>
+        </tr>
+        <tr>
+          <td valign="top" width="100"><p><strong>14:30</strong></p></td>
+          <td valign="top" width="254"><p> </p></td>
+          <td valign="top" width="448"><p><br /></p></td>
+        </tr>
+        <tr>
+          <td valign="top" width="100"><p><strong>15:00</strong></p></td>
+          <td colspan="2" valign="top"><p>Intercambio    ponentes/asistentes</p></td>
+        </tr>
+        <tr>
+          <td valign="top" width="100"><p><strong>15:30</strong></p></td>
+          <td colspan="2" valign="top"><p>Pausa para el café</p></td>
+        </tr>
+        <tr>
+          <td valign="top" width="100"><p><strong>15:45 </strong></p></td>
+          <td valign="top" width="254"><p> </p></td>
+          <td valign="top" width="448"><p> </p></td>
+        </tr>
+        <tr>
+          <td valign="top" width="100"><p><strong>16:15 </strong></p></td>
+          <td valign="top" width="254"><p> </p></td>
+          <td valign="top" width="448"><p><br /></p></td>
+        </tr>
+        <tr>
+          <td valign="top" width="100"><p><strong>16:45</strong></p></td>
+          <td colspan="2" valign="top"><p>Intercambio    ponentes/asistentes</p></td>
+        </tr>
+        <tr>
+          <td valign="top" width="100"><p><strong>17:30</strong></p></td>
+          <td colspan="2" valign="top"><p>CIERRE Y RESUMEN DE LA JORNADA</p></td>
+        </tr>
+      </tbody></table>
+    </div>
+    <p>&nbsp;</p>
+    <p><a href="#mt0" class="content1">Volver</a><br clear="all" />
+    </p>
+    <p align="center">&nbsp;</p>
+    <table align="center" border="1" cellpadding="0" cellspacing="0" width="810">
+      <tbody><tr>
+        <td colspan="3" class="content3" bgcolor="#003333" valign="top"><p><strong><span class="arriba1"><a name="mt8" id="mt8"></a></span>MESA  TEMÁTICA 8: <em>EDUCACIÓN RURAL</em></strong><br />
+        MODERADOR:   Pablo Díaz – RELATOR: Limber Santos </p>
+        <p>Local: IFD - Agraciada 892, salón 6</p></td>
+      </tr>
+      <tr>
+        <td colspan="3" valign="top">&nbsp;</td>
+      </tr>
+      <tr>
+        <td colspan="3" valign="top"><br />
+          <strong>&nbsp;M A Ñ A N A</strong></td>
+      </tr>
+      <tr>
+        <td colspan="3" valign="top"><p>&nbsp;</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="95"><p><strong>08:30</strong></p></td>
+        <td colspan="2" valign="top"><p>Acreditaciones</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="95"><p><strong>08:55</strong></p></td>
+        <td colspan="2" valign="top"><p>Presentación    y dinámica de trabajo&nbsp;</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="95"><p><strong>09:00</strong></p></td>
+        <td valign="top" width="260"><p> </p></td>
+        <td valign="top" width="447"><p> </p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="95"><p><strong>09:30</strong></p></td>
+        <td valign="top" width="260"><p> </p></td>
+        <td valign="top" width="447"><p><br /></p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="95"><p><strong>10:00</strong></p></td>
+        <td colspan="2" valign="top"><p>Pausa para el café</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="95"><p><strong>10:15</strong></p></td>
+        <td valign="top" width="260"><p> </p></td>
+        <td valign="top" width="447"><p><br /></p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="95"><p><strong>10:45</strong></p></td>
+        <td valign="top" width="260"><p> </p></td>
+        <td valign="top" width="447"><p><br /></p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="95"><p><strong>11:15</strong></p></td>
+        <td colspan="2" valign="top"><p>Discusión,    síntesis y preguntas</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="95"><p><strong>12:00</strong><strong> </strong></p></td>
+        <td colspan="2" valign="top"><p>Pausa para el almuerzo</p></td>
+      </tr>
+    
+      <tr>
+        <td colspan="3" valign="top"><p><strong>&nbsp;T A R D E</strong></p></td>
+      </tr>
+      <tr>
+        <td colspan="3" valign="top"><p>&nbsp;</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="95"><p><strong>14:00</strong><strong> </strong></p></td>
+        <td valign="top" width="260"><p> </p></td>
+        <td valign="top" width="447"><p><br /></p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="95"><p><strong>14:30</strong></p></td>
+        <td valign="top" width="260"><p> </p></td>
+        <td valign="top" width="447"><p><br /></p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="95"><p><strong>15:00</strong></p></td>
+        <td colspan="2" valign="top"><p>Pausa para el café</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="95"><p><strong>15:30</strong></p></td>
+        <td valign="top" width="260"><p><br /></p></td>
+        <td valign="top" width="447"><p><br /></p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="95"><p><strong>16:00</strong></p></td>
+        <td valign="top" width="260"><p> </p></td>
+        <td valign="top" width="447"><p><br /></p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="95"><p><strong>16:30</strong></p></td>
+        <td colspan="2" valign="top"><p>Discusión,    síntesis y preguntas</p></td>
+      </tr>
+      <tr>
+        <td valign="top" width="95"><p><strong>18:00</strong></p></td>
+        <td colspan="2" valign="top"><p>CIERRE DE LA JORNADA</p></td>
+      </tr>
+    </tbody></table>
+<p>&nbsp;</p>
+    <p><a href="#mt0" class="content1">Volver</a></p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <hr class="regla01" />
+    <p></p>
+    <p></p>
+    <p>&nbsp;</p>
+    <p><span class="arriba1"><a name="n25" id="n25"></a></span></p>
+    <div class="margder">
+      <iframe src="https://docs.google.com/forms/d/1Ft2bHN4n7XLiECvj-Gb10Sy_HPmWOFBHg-Fevtrb-kg/viewform?embedded=true" marginheight="0" marginwidth="0" frameborder="0" height="550" width="760">Cargando...</iframe>
+  </div>
+    <p><a href="#n00" class="content">Arriba</a><a href="#n00"></a></p>
+    <h4><span class="arriba1"><a name="n28" id="n28"></a></span></h4>
+    <div class="margder"> <iframe src="https://docs.google.com/forms/d/1gTq6i-Ny_m9gt_oM0IyFbZcm4Mrjti2E4huBfrX18lE/viewform?embedded=true" marginheight="0" marginwidth="0" frameborder="0" height="700" width="760">Cargando...</iframe> 
+      <p>&nbsp;</p>
+      <p><a href="#n00" class="content">Arriba</a><a href="#n00"></a></p>
+      <p class="titulo">&nbsp;</p>
+      <p>&nbsp;</p>
+      <hr class="regla01" />
+      <p></p>
+      <p></p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p class="titulo"><a name="n01" id="n01"></a>PROF. LIDIA FERNANDEZ</p>
+      <p class="titulo"><img src="2017JBE/lidia%20fernandez.png" alt="" height="114" width="124" /></p>
+      <p style="text-align: justify;"><span style="font-weight: bold;">Profesora y Licenciada en Ciencias de la Educación</span> (1962 –Diploma de honor FFyL - UBA.)&nbsp;</p>
+      <p style="text-align: justify;"><span style="font-weight: bold;">Hizo Estudios de Posgrado en Psicología y educación</span> (1962-1966)</p>
+      <p style="text-align: justify;"><span style="font-weight: bold;"> Investigadora de categoría Maxima en el sistema nacional de
+        investigación desde el primer llamado de la Secretaría Nacional de
+        Asuntos Unviersitarios</span></p>
+      <p style="text-align: justify;"><span style="font-weight: bold;"> Creadora de la Primera cátedra UBA </span>en”Análisis institucional de la escuela” (1986).</p>
+      <p style="text-align: justify;"><span style="font-weight: bold;">1994-</span> <span style="font-weight: bold;">Profesora Titular regular por concurso abierto de antecedentes y oposición en dicha cátedra</span> <span style="font-weight: bold;">Creadora y Directora del Programa de investigaciones </span>“Instituciones
+        educativas” Facultad de Filosofía y Letras UBA Instituto de
+        investigaciones en Ciencias de la Educación (desde 1986 y sigue) <span style="font-weight: bold;"></span></p>
+      <p style="text-align: justify;"><span style="font-weight: bold;">Docente-Investigador Titular UBA</span> (1973-75 y desde 1984 sigue) y en <span style="font-weight: bold;">UNTREF</span> (desde 2005)</p>
+      <p style="text-align: justify;"> <span style="font-weight: bold;">Investigador de Categoría (I)</span> en el Sistema Nacional de Investigadores (desde 1995)</p>
+      <p style="text-align: justify;"><span style="font-weight: bold;"> Directora </span>de la Carrera de Especialización Posgrado
+        en Análisis institucional en las prácticas sociales de UNCUYO, Maestría
+        en Análisis Institucional en la misma Universidad y del Diplomado
+        Superior “Análisis institucional y organizaciones educativas de UNTREF</p>
+      <p style="text-align: justify;"><span style="font-weight: bold;"> Integrante del padrón de directores de Tesis de Doctorado y Maestría</span> de la Facultad de Filosofía y Letras de la UBA y del Programa de Posgrados de la UNTREF</p>
+      <p style="text-align: justify;"><span style="font-weight: bold;"></span><span style="font-weight: bold;"> Miembro de los Comites directivos</span> <span style="font-weight: bold;">de las Carreras de Posgrado</span>:
+        Maestrías en Políticas y Administración de la Educación (UNTREF),
+        Doctorado en Educación (Univ de San Luis) Maestría en Pedagogía
+        (UNCórdoba), Analisis de la educación, sus organizaciones y sus
+        prácticas (UNNE), Maestría de Didáctica (UBA), Maestría de Tecnología
+        educativa (UBA) etc.</p>
+      <p style="text-align: justify;"><span style="font-weight: bold;"> Miembro de Comites Científicos de Revistas</span> especializadas del IICE-UBA, PRAXIS UNLP, Espacios UNComahue, entre otras.&nbsp;</p>
+      <p style="text-align: justify;"><span style="font-weight: bold;">Línea personal de investigación básica:</span> “Dinámicas institucionales en condiciones críticas”&nbsp;</p>
+      <p style="text-align: justify;"><span style="font-weight: bold;">Línea de investigación aplicada</span>” Diseños y dispositivos para la formación en el análisis psicosocial de las instituciones”&nbsp;</p>
+      <p style="text-align: justify;">Desde 1999 <span style="font-weight: bold;">Profesora e Investigadora Titular del Programa de Posgrados en Educación de la Universidad Nacional de Tres de Febrero.</span></p>
+      <p style="text-align: justify;"> Desde Junio 2007 <span style="font-weight: bold;">Profesor Titular Consulta</span> de la Facultad de Filosofía y Letras Designada a propuesta del claustro
+        de Profesores por el Consejo Directivo y el Consejo Superior de la
+        Universidad y como tal directora de Tesis y de investigaciones en el
+        área, <span style="font-weight: bold;">continúa con su producción en el campo de la investigación</span>&nbsp;</p>
+      <p style="text-align: justify;"><span style="font-weight: bold;">Numerosas publicaciones en el campo de la especialidad.</span></p>
+      <p style="text-align: justify;"><span style="font-weight: bold;">Premios:
+        Diploma de honor FFyL UBA, 1962, Premios anuales a la investigación
+        científica FFyL UBA 88 al 95 . Mención de honor por Jurado 1996, Premio
+        mayor Por Jurado 1998</span> categoría Obra Teórica por las obras
+        “Pensando las instituciones” (en colaboración) y “El Análisis de lo
+        institucional en la escuela-Notas teóricas" (de única autoría)
+        respectivamente.&nbsp; </p>
+      <p><a href="#n99" class="content1">Arriba</a><a href="#n00"></a></p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      
+      
+      
+      
+      
+      
+      
+      
+      <p>&nbsp;<br />&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;<br /></p>
+      
+      <p>&nbsp;&nbsp;</p>
+      
+      <p><span class="titulo"><a name="n03" id="n03"></a><strong>Prof. João Pedro Schmidt</strong></span></p><p><span class="titulo"><strong><img style="width: 152px; height: 195px;" alt="" src="2017JBE/JP2.jpg" /></strong></span></p><span style="font-weight: bold;">Universidade de Santa Cruz do Sul - UNISC</span><br /><span style="font-weight: bold;"><br />Graduado em Filosofia</span>, <span style="font-weight: bold;">mestre em Filosofia e doutor em Ciência Política</span>
+pela Universidade Federal do Rio Grande do Sul. Sua tese de doutorado
+versou sobre o processo de socialização política dos jovens
+brasileiros. Posteriormente, aprofundou-se no tema das políticas
+públicas, das universidades comunitárias brasileiras e no estudo do
+pensamento comunitarista. Além de <span style="font-weight: bold;">artigos publicados em diversos periódicos</span>, <span style="font-weight: bold;">é autor dos livros</span> "Juventude e Política no Brasil" (Edunisc, 2001) e “Universidades comunitárias e terceiro setor” (Edunisc, 2017), e <span style="font-weight: bold;">organizador dos livros</span>
+"Instituições comunitárias: instituições públicas não estatais"
+(Edunisc, 2009) e “Comunidade e comunitarismo: temas em debate”
+(Multideia, 2013). Em 2016 realizou estudos de <span style="font-weight: bold;">pós-doutoramento na The George Washington University </span>(Washington
+DC, EUA) sob a supervisão do professor Amitai Etzioni, o mais conhecido
+dos pensadores comunitaristas norte-americanos. É <span style="font-weight: bold;">professor titular da Universidade de Santa Cruz do Sul</span>, atuando especialmente no Programa de Pós-Graduação em Direito - <span style="font-weight: bold;">Mestrado e Doutorado</span>.<br /><p><span class="titulo"><strong></strong></span></p>
+      <p class="content5"><br /></p><br /><br /><br /><br /><br /><p><a href="#n99" class="content1">Arriba</a><a href="#n00"></a></p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p><span class="titulo"><a name="n05" id="n05"></a><strong>-</strong></span></p>
+      <p><br /></p><br /><p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p><a href="#n99" class="content1">Arriba</a><a href="#n00"></a></p>
+      <p class="titulo">&nbsp;</p>
+      <p class="titulo">&nbsp;</p>
+      <p class="titulo">&nbsp;</p>
+      <p class="titulo">&nbsp;</p>
+      <p class="titulo">&nbsp;</p>
+      <p><span class="titulo"><a name="n06" id="n06"></a><strong>-</strong></span></p>
+      <p>&nbsp;</p>
+      <p><br /></p>
+      <p><span class="content5"></span><br />
+      </p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p><a href="#n99" class="content1">Arriba</a></p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p class="titulo">&nbsp;</p>
+      <p class="titulo"><a name="n05" id="n05"></a>-</p>
+      <p class="titulo"><br /></p><p>&nbsp;<br />
+      </p>
+      <p>&nbsp;</p>
+      <p><a href="#n99" class="content1">Arriba</a></p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p><span class="titulo"><a name="bb01" id="bb01"></a><strong>-</strong></span></p>
+      <p><br /></p>
+      <p><br />
+  <br />
+      </p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p><a href="#n99" class="content1">Arriba</a><a href="#n00"></a></p>
+      <p class="titulo"></p>
+      <p class="titulo"></p>
+      <p class="titulo"></p>
+      <p class="titulo"></p>
+      <p class="titulo"></p>
+      <p class="titulo"></p>
+      <p class="titulo"></p>
+      <p class="titulo"></p>
+      <p class="titulo"></p>
+      <p class="titulo"></p>
+      <p class="titulo"><a name="bb02" id="bb02"></a>-</p>
+      <p><br /></p>
+      <p> </p>
+      <p>&nbsp;</p>
+      <p><a href="#n99" class="content1">Arriba</a><a href="#n00"></a><a href="#n99"></a></p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p class="titulo"><a name="bb03" id="bb03"></a>-</p>
+      <p class="titulo"><br /></p><p><br />
+        <br /><br />
+      </p>
+      <p><a href="#n99" class="content1">Arriba</a><a href="#n00"></a><a href="#n99"></a></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p class="titulo"></p>
+      <p><span class="titulo"><a name="bb04" id="bb04"></a>-</span></p>
+      <p><br /></p><br /><p>&nbsp;</p>
+      <p><a href="#n99" class="content1">Arriba</a><a href="#n00"></a><a href="#n99"></a></p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p><p>-</p>
+      <p><span class="titulo"><a name="bb05" id="bb05"></a></span></p>
+      <p><br /></p>
+      <p><br /></p>
+<p>&nbsp;</p>
+      <p><a href="#n00"></a><a href="#n99" class="content1">Arriba</a><a href="#n00"></a><a href="#n99"></a></p>
+      <p class="titulo"><a name="bb06" id="bb06"></a>- </p>
+      <p class="titulo"><br clear="all" />
+      </p>
+      <p><br /></p>
+      <p><a href="#n99" class="content1">Arriba</a><a href="#n00"></a><a href="#n99"></a></p>
+      <p>&nbsp;</p>
+      <hr class="regla01" />
+      <p class="titulo">Comentarios y sugerencias sobre las VI Jornadas</p>
+      <p>Por
+favor, escribe tus comentarios y sugerencias en el siguiente
+formulario. Comentarios sobre las recientes VI Jornadas Binacionales de
+Educación y sugerencias para las próximas VII Jornadas a realizarse en
+Setiembre 2018</p>
+      <div class="margder">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc4zTxRLHhrGXrm32PeHkvoYmTjAwGuHJJiM3SPOkhJtyXhtg/viewform?embedded=true" marginwidth="0" marginheight="0" class="margder" frameborder="0" height="500" width="760">Cargando...</iframe>
+      </div>
+      <hr class="regla01" />
+      <p class="titulo">"Miradas sobre educación y cambio". Compilación de conferencias y ponencias de las IV  Jornadas Binacionales de Educación.</p>
+      <p><em>Miradas  sobre educación y cambio</em> Compilación de conferencias y ponencias de las IV  Jornadas Binacionales de Educación.</p>
+      <p>ISBN 978-9974-711-69-3</p>
+      <p>Desde el siguiente enlace, puedes descargar la versión digital del libro: <a href="mgns/IV%20JBE.pdf" target="new">pulsa aquí</a></p>
+      <table border="0" cellpadding="0" cellspacing="0" width="887">
+        <tbody>
+          <tr>
+            <td width="251"><img src="mgns/libro.png" height="357" width="251" /></td>
+            <td width="539"><span class="content5">Las IV-JBE «Miradas sobre  educación y cambio» se llevaron  a cabo entre el 9 y el
+              11 de setiembre de 2015 en la  ciudad fronteriza Rivera (Uruguay) -
+              Sant’ Ana do Livramento  (Brasil). Fueron organizadas
+              por el Departamento de Ciencias
+              de la Educación del CeRP  del Norte, conjuntamente con
+              el Centro de Estudios sobre
+              Políticas Educativas (CEPE),  el Núcleo de Estudios Interdisciplinarios  sobre Sociedad,
+              Educación y Lenguaje en Frontera  (NEISELF) del CUR de la
+              Universidad de la República; y
+              el IFD Rivera. Contó, además,  con el invalorable apoyo de la
+              Escuela Técnica Superior de
+              Rivera (UTU), de la Intendencia  Departamental de Rivera
+              y la Prefeitura de Sant’Ana do  Livramento.<br />
+              En las jornadas se abordaron  cinco Ejes Temáticos:  «Desigualdades y políticas
+              educativas» y «Sociedad, educación
+              y lenguaje en zona de
+              frontera» en la sede del CUR,
+              «Educación y TIC» y «Formación  docente» en la sede
+              del IFD de Rivera, y «Educación
+              comparada e internacional
+              » en la Sala Ivo Caggiani  de Livramento. Hubo nueve
+              conferencias centrales a cargo  de académicos de reconocido
+              prestigio internacional, un total
+              de 69 expositores procedentes
+              de diversas universidades e instituciones
+              educativas uruguaya-s,  brasileñas y argentinas, y
+              una asistencia que, a lo largo
+              de las tres jornadas desarrolladas,
+              superó el medio millar de  personas.</span></td>
+          </tr>
+        </tbody>
+      </table>
+      <p>&nbsp;</p>
+      <div class="margder"></div>
+      <hr class="regla01" />
+      <p>&nbsp;</p>
+      <p class="titulo">Enlace para streaming</p>
+      <p>Desde este enlace se podrán ver las Jornadas en vivo y en directo</p>
+      <p><a href="http://ustre.am/1xgOP">&nbsp;http://ustre.am/1xgOP</a></p>
+      <p>Vera TV <a href="http://tv.vera.com.uy/evento/21436">http://tv.vera.com.uy/evento/21436</a></p>
+      <iframe id="playlist_iframe" src="" mozallowfullscreen="mozallowfullscreen" frameborder="0" height="100%" width="100%"> </iframe>
+      <script>var iframe=document.getElementById("playlist_iframe"); iframe.src="http://tv.vera.com.uy/syndication/index.php/sindicacion/play/ANTEL-PLAYER/21436?extras=eyJ3aWR0aCI6IjEwMCUiLCJoZWlnaHQiOiIxMDAlIiwiaWZyYW1lZCI6MSwic2VjdXJpdHlfdG9rZW4iOiJNemt5TWpFME56TXpOREU0TURnNk9tVmhNMll4Tm1Wall6Rm1aRGxqWlRNeU1ESTVZakk1TnpNeU1USTVORGhqTW1Sa05UVXhZV0V4T0RReVlXWTJPV0V4TkRjM05XWTNOR0ptTnpKbFpqUT0iLCJ3c190b2tlbiI6bnVsbH0="</script>
+      <p class="titulo"></p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p><span class="titulo"><a name="n107" id="n107"></a></span></p>
+<table border="0" height="90" width="92%">
+        <tbody><tr>
+          <td width="150"><img src="../2016/mgns/logo%20dpto%20educac2.jpg" alt="Dpto Educ" height="65" width="154" /></td>
+          <td align="center" width="150"><a href="http://www.dfpd.edu.uy/cerp/cerp_norte/"><img src="../2016/mgns/logo_cerpnorte2.jpg" alt="cerp" height="104" width="103" /></a></td>
+          <td align="center" width="150"><a href="http://www.universidad.edu.uy/"><img src="../2016/mgns/logo%20udelar.jpg" alt="udelar" height="62" width="157" /></a></td>
+          <td align="center" width="150"><img src="../2016/mgns/cur2.jpg" alt="Cur" height="100" width="59" /></td>
+          <td align="center" width="150"><img src="../2016/mgns/ifd.jpg" alt="" height="111" width="102" /></td>
+        </tr>
+        <tr>
+          <td align="center"><a href="http://www.rivera.gub.uy/"><img src="../2016/mgns/idr.jpg" alt="idr" height="108" width="86" /></a></td>
+          <td align="center"><img src="../2016/mgns/sadl.jpg" alt="" height="100" width="107" /></td>
+          <td align="center"><img src="../2016/mgns/etsr.jpg" alt="" height="100" width="105" /></td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+        </tr>
+        <tr>
+          <td align="center"><img src="../2016/mgns/logo%20topos%202.jpg" alt="topos" height="55" width="154" /></td>
+          <td align="center"><img src="../2016/mgns/Logo%20CEPE2.jpg" alt="CEPE" height="116" width="105" /></td>
+          <td align="center"><img src="../2016/mgns/neiself.png" alt="Neiself" height="108" width="77" /></td>
+          <td align="center">&nbsp;</td>
+          <td align="center">&nbsp;</td>
+        </tr>
+        <tr>
+          <td align="center"><img src="mgns/descarga.png" alt="" height="81" width="155" /></td>
+          <td align="center"><img src="mgns/logo_flickr.jpg" alt="" height="89" width="104" /></td>
+          <td align="center"><img src="mgns/33698.jpg" alt="" height="66" width="154" /></td>
+          <td align="center"><img src="mgns/idr.fw.jpg" alt="" height="47" width="154" /></td>
+          <td align="center">&nbsp;</td>
+        </tr>
+      </tbody></table>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    </div>
+    <p>&nbsp;</p>
+    <div class="pie">   
+      <p><br />
+      <strong>V  JORNADAS BINACIONALES de EDUCACIÓN</strong></p>
+      <p><strong>I FORO EDUCATIVO REGIONAL</strong></p>
+      <p>&nbsp;</p>
+    </div> 
+  <!-- end .content --></div>
+<!-- end .container --></div>
+</body></html>
